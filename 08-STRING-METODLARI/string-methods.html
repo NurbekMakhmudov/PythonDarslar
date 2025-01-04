@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python String Metodlari</title>
+    <style>
+        body{
+            padding: 15px 150px 150px 150px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Python String Metodlari</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Metod</th>
+                <th>Tavsif (O‘zbekcha)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>capitalize()</td><td>Matnning birinchi harfini katta harfga aylantiradi.</td></tr>
+            <tr><td>casefold()</td><td>Matnni kichik harflarga aylantiradi.</td></tr>
+            <tr><td>center()</td><td>Matnni markazlashgan holatda qaytaradi.</td></tr>
+            <tr><td>count()</td><td>Matnda ko‘rsatilgan qiymat necha marta uchraganini qaytaradi.</td></tr>
+            <tr><td>encode()</td><td>Matnni kodlangan versiyasini qaytaradi.</td></tr>
+            <tr><td>endswith()</td><td>Matn ko‘rsatilgan qiymat bilan tugasa, True qaytaradi.</td></tr>
+            <tr><td>expandtabs()</td><td>Matndagi tab belgisining o‘lchamini belgilaydi.</td></tr>
+            <tr><td>find()</td><td>Matndan ko‘rsatilgan qiymatni topib, uning joylashuvini qaytaradi.</td></tr>
+            <tr><td>format()</td><td>Matnga ko‘rsatilgan qiymatlarni formatlaydi.</td></tr>
+            <tr><td>format_map()</td><td>Matnga ko‘rsatilgan qiymatlarni formatlaydi.</td></tr>
+            <tr><td>index()</td><td>Matndan ko‘rsatilgan qiymatni topib, uning joylashuvini qaytaradi.</td></tr>
+            <tr><td>isalnum()</td><td>Matndagi barcha belgilar alfanumerik bo‘lsa, True qaytaradi.</td></tr>
+            <tr><td>isalpha()</td><td>Matndagi barcha belgilar faqat harflar bo‘lsa, True qaytaradi.</td></tr>
+            <tr><td>isascii()</td><td>Matndagi barcha belgilar ASCII bo‘lsa, True qaytaradi.</td></tr>
+            <tr><td>isdecimal()</td><td>Matndagi barcha belgilar decimal bo‘lsa, True qaytaradi.</td></tr>
+            <tr><td>isdigit()</td><td>Matndagi barcha belgilar raqam bo‘lsa, True qaytaradi.</td></tr>
+            <tr><td>isidentifier()</td><td>Matn identifikator sifatida ishlatilishi mumkin bo‘lsa, True qaytaradi.</td></tr>
+            <tr><td>islower()</td><td>Matndagi barcha harflar kichik bo‘lsa, True qaytaradi.</td></tr>
+            <tr><td>isnumeric()</td><td>Matndagi barcha belgilar raqam bo‘lsa, True qaytaradi.</td></tr>
+            <tr><td>isprintable()</td><td>Matndagi barcha belgilar chop etiladigan bo‘lsa, True qaytaradi.</td></tr>
+            <tr><td>isspace()</td><td>Matndagi barcha belgilar bo‘shliq bo‘lsa, True qaytaradi.</td></tr>
+            <tr><td>istitle()</td><td>Matn sarlavha qoidalariga mos kelsa, True qaytaradi.</td></tr>
+            <tr><td>isupper()</td><td>Matndagi barcha harflar katta bo‘lsa, True qaytaradi.</td></tr>
+            <tr><td>join()</td><td>Iterable elementlarini matnga birlashtiradi.</td></tr>
+            <tr><td>ljust()</td><td>Matnni chapga hizalangan holda qaytaradi.</td></tr>
+            <tr><td>lower()</td><td>Matnni kichik harflarga aylantiradi.</td></tr>
+            <tr><td>lstrip()</td><td>Matndan chap tomondagi bo‘shliqni olib tashlaydi.</td></tr>
+            <tr><td>maketrans()</td><td>Matnni o‘zgartirish uchun tarjima jadvalini qaytaradi.</td></tr>
+            <tr><td>partition()</td><td>Matnni uch qismga ajratib, tuple qaytaradi.</td></tr>
+            <tr><td>replace()</td><td>Matndagi qiymatni boshqa qiymat bilan almashtiradi.</td></tr>
+            <tr><td>rfind()</td><td>Matndan qiymatni qidirib, oxirgi joylashuvini qaytaradi.</td></tr>
+            <tr><td>rindex()</td><td>Matndan qiymatni qidirib, oxirgi joylashuvini qaytaradi.</td></tr>
+            <tr><td>rjust()</td><td>Matnni o‘ngga hizalangan holda qaytaradi.</td></tr>
+            <tr><td>rpartition()</td><td>Matnni uch qismga ajratib, tuple qaytaradi.</td></tr>
+            <tr><td>rsplit()</td><td>Matnni ko‘rsatilgan ajratgich bo‘yicha ajratadi va ro‘yxat qaytaradi.</td></tr>
+            <tr><td>rstrip()</td><td>Matndan o‘ng tomondagi bo‘shliqni olib tashlaydi.</td></tr>
+            <tr><td>split()</td><td>Matnni ko‘rsatilgan ajratgich bo‘yicha ajratadi va ro‘yxat qaytaradi.</td></tr>
+            <tr><td>splitlines()</td><td>Matnni qator bo‘linish joylarida ajratadi va ro‘yxat qaytaradi.</td></tr>
+            <tr><td>startswith()</td><td>Matn ko‘rsatilgan qiymat bilan boshlansa, True qaytaradi.</td></tr>
+            <tr><td>strip()</td><td>Matndan bo‘sh joylarni olib tashlaydi.</td></tr>
+            <tr><td>swapcase()</td><td>Katta harflarni kichik, kichik harflarni katta harflarga almashtiradi.</td></tr>
+            <tr><td>title()</td><td>Har bir so‘zning birinchi harfini katta qiladi.</td></tr>
+            <tr><td>translate()</td><td>Matnni tarjima qiladi.</td></tr>
+            <tr><td>upper()</td><td>Matnni katta harflarga aylantiradi.</td></tr>
+            <tr><td>zfill()</td><td>Matn boshiga nollardan to‘ldiradi.</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
