@@ -1,7 +1,7 @@
 shahar = "Қўқон"
 viloyat = 'Фарғона'
 
-matn = "Men yangi 📱 oldim"
+matn = "Men yangi 📱 oldim 😉"
 print(matn)
 
 ism = 'Ahmad'

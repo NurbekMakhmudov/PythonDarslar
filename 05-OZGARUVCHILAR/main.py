@@ -3,8 +3,10 @@ yosh = 25
 print(ism)
 print(yosh)
 
-# ism = "Abdulloh"
-# print(ism)
-# ism="Muhammad"
-# print(ism)
+ISM = "Abdulloh"
+print(ISM)
+ISM = "Muhammad"
+print(ISM)
 
+PI = 3.14
+print(PI)

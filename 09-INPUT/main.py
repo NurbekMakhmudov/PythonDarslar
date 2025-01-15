@@ -1,9 +1,12 @@
-ism = input("Ismingiz nima?\n")
-print("Assalom alaykum, " + ism)
+ism = input("Ismingiz nima?\n>>> ")
+yil = input("Tug'ulgan yilingizni yozing\n>>> ")
+yosh = 2025 - int(yil)
+print(f"Assalomu alaykum: {ism} siz {yosh} dasiz")
 
 
-ism = input("Ismingiz nima?\n___") # Foydalanuvchi ismini yangi qatordan kiritadi
-print("Assalom alaykum, " + ism.title())
+# Foydalanuvchi ismini yangi qatordan kiritadi
+# ism = input("Ismingiz nima?\n>>>")
+# print("Assalom alaykum, " + ism.title())
 
 
 
