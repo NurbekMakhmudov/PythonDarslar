@@ -1,9 +1,14 @@
-oy = input("Hozir qaysi oy? ")
-yomgir = input("Bugun yomg'ir yog'dimi? (ha/yo'q): ")
+kr_pul_bor = input("Puli bor karta raqam yozing \n>>>")
+bor_pul = 0
+kr_kerak = input("Pul kerak bo'lgan karta raqamni yozing \n>>> ")
+summa = int(input("Qancha summa o'tkazasiz \n>>>"))
 
-if oy.lower() == 'mart' and yomgir.lower() == 'ha':
-    print("Soyabon oling!")
-elif oy.lower() == 'mart' and yomgir.lower() == "yo'q":
-    print("Ob-havo bahoriy, zavqlaning!")
+if summa < bor_pul and bor_pul > 1000:
+    print(f"{kr_pul_bor} dan {kr_kerak} ga {summa} so'm o'tkazildi")
 else:
-    print("Bu bahor oylari emas!")
+    print("Amalyot bajarilmadi")
+
+# 5440810301269212
+# 8960142204221820
+
+

@@ -1,8 +1,10 @@
 yosh = int(input('Yoshingiz nechida? '))
-if yosh<=4:
+if yosh <= 4:
     print('Sizga kirish bepul.')
-elif yosh<=12:
+elif yosh <= 12:
     print("Sizga kirish 5000 so'm")
+elif yosh <= 18:
+    print("Sizga kirish 10000 so'm.")
 else:
-    print("Sizga kirish 10000 so'm")
-    
+    print("Sizga kirish 15000 so'm")
+
